@@ -12,6 +12,8 @@ namespace SoloRPTools
             Commands.Add(new Roll());
             Commands.Add(new Quit());
             Commands.Add(new Fate());
+            Commands.Add(new REvent());
+            Commands.Add(new Scene());
 
             while (true) {
                 Console.ForegroundColor = ConsoleColor.White;

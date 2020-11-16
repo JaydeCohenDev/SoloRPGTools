@@ -1,0 +1,100 @@
+﻿Remote event
+Remote event
+Remote event
+Remote event
+Remote event
+Remote event
+Remote event
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+NPC action
+Introduce a new NPC
+Introduce a new NPC
+Introduce a new NPC
+Introduce a new NPC
+Introduce a new NPC
+Introduce a new NPC
+Introduce a new NPC
+Move toward a thread
+Move toward a thread
+Move toward a thread
+Move toward a thread
+Move toward a thread
+Move toward a thread
+Move toward a thread
+Move toward a thread
+Move toward a thread
+Move toward a thread
+Move away from a thread
+Move away from a thread
+Move away from a thread
+Move away from a thread
+Move away from a thread
+Move away from a thread
+Move away from a thread
+Close a thread
+Close a thread
+Close a thread
+PC negative
+PC negative
+PC negative
+PC negative
+PC negative
+PC negative
+PC negative
+PC negative
+PC negative
+PC negative
+PC negative
+PC negative
+PC positive
+PC positive
+PC positive
+PC positive
+PC positive
+PC positive
+PC positive
+PC positive
+Ambiguous event
+Ambiguous event
+Ambiguous event
+Ambiguous event
+Ambiguous event
+Ambiguous event
+Ambiguous event
+Ambiguous event
+NPC negative
+NPC negative
+NPC negative
+NPC negative
+NPC negative
+NPC negative
+NPC negative
+NPC negative
+NPC negative
+NPC positive
+NPC positive
+NPC positive
+NPC positive
+NPC positive
+NPC positive
+NPC positive
+NPC positive
