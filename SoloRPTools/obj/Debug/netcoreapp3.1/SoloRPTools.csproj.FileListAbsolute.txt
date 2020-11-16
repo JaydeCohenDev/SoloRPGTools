@@ -1,0 +1,11 @@
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\bin\Debug\netcoreapp3.1\SoloRPTools.exe
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\bin\Debug\netcoreapp3.1\SoloRPTools.deps.json
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\bin\Debug\netcoreapp3.1\SoloRPTools.runtimeconfig.json
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\bin\Debug\netcoreapp3.1\SoloRPTools.runtimeconfig.dev.json
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\bin\Debug\netcoreapp3.1\SoloRPTools.dll
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\bin\Debug\netcoreapp3.1\SoloRPTools.pdb
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\obj\Debug\netcoreapp3.1\SoloRPTools.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\obj\Debug\netcoreapp3.1\SoloRPTools.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\obj\Debug\netcoreapp3.1\SoloRPTools.AssemblyInfo.cs
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\obj\Debug\netcoreapp3.1\SoloRPTools.dll
+C:\Users\admin\source\repos\SoloRPTools\SoloRPTools\obj\Debug\netcoreapp3.1\SoloRPTools.pdb
