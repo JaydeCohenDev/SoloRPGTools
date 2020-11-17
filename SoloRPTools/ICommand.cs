@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SoloRPTools
+﻿namespace SoloRPTools
 {
     public interface ICommand
     {

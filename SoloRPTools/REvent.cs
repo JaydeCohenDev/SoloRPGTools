@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
 
 namespace SoloRPTools
 {
@@ -42,23 +39,17 @@ namespace SoloRPTools
 
         private string GetFocus()
         {
-            string path = Directory.GetCurrentDirectory()+ "\\tables\\EventFocusTable.txt";
-            string[] lines = System.IO.File.ReadAllLines(path);
-            return lines[new Random().Next(0, 100)];
+            return FileReader.ReadRandomLine("tables\\EventFocusTable.txt");
         }
 
         private string GetAction()
         {
-            string path = Directory.GetCurrentDirectory() + "\\tables\\EventMeaningAction.txt";
-            string[] lines = System.IO.File.ReadAllLines(path);
-            return lines[new Random().Next(0, 100)];
+            return FileReader.ReadRandomLine("tables\\EventMeaningAction.txt");
         }
 
         private string GetSubject()
         {
-            string path = Directory.GetCurrentDirectory() + "\\tables\\EventMeaningSubject.txt";
-            string[] lines = System.IO.File.ReadAllLines(path);
-            return lines[new Random().Next(0, 100)];
+            return FileReader.ReadRandomLine("tables\\EventMeaningSubject.txt");
         }
     }
 }
