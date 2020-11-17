@@ -4,13 +4,14 @@ using System.Linq;
 
 namespace SoloRPTools
 {
-    class Program
+    public class Program
     {
         private static List<ICommand> Commands = new List<ICommand>();
 
         static void Main(string[] args)
         {
             LoadCommands();
+
 
             while (true) {
                 Console.ForegroundColor = ConsoleColor.White;
