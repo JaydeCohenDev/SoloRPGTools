@@ -1,0 +1,15 @@
+﻿Anger
+Sadness
+Fear
+Disfavours thread
+Disfavours NPC
+Focus NPC
+Favors NPC
+Focus NPC
+Disfavors NPC
+Focus thread
+Favours PC
+Favour thread
+Courage
+Happiness
+Calm

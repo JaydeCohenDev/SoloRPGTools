@@ -17,5 +17,11 @@ namespace SoloRPTools
             string[] lines = ReadLines(path);
             return lines[new Random().Next(0, lines.Length)];
         }
+
+        public static string ReadLine(string path, int lineNumber)
+        {
+            string[] lines = ReadLines(path);
+            return lines[lineNumber];
+        }
     }
 }

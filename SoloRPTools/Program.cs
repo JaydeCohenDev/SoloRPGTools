@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SoloRPTools
 {
@@ -9,12 +10,7 @@ namespace SoloRPTools
 
         static void Main(string[] args)
         {
-            Commands.Add(new Roll());
-            Commands.Add(new Quit());
-            Commands.Add(new Fate());
-            Commands.Add(new REvent());
-            Commands.Add(new Scene());
-            Commands.Add(new Table());
+            LoadCommands();
 
             while (true) {
                 Console.ForegroundColor = ConsoleColor.White;
@@ -38,6 +34,18 @@ namespace SoloRPTools
                 }
             }
             Console.WriteLine("Command not found.");
+        }
+
+        private static void LoadCommands()
+        {
+            var iType = typeof(ICommand);
+            var all = AppDomain.CurrentDomain.GetAssemblies()
+                .SelectMany(x => x.GetTypes())
+                .Where(x => iType.IsAssignableFrom(x) && !x.IsInterface && !x.IsAbstract)
+                .Select(x => Activator.CreateInstance(x));
+
+            foreach (var a in all)
+                Commands.Add((ICommand)a);
         }
     }
 }
